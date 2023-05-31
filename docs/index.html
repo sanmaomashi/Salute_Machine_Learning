@@ -10,6 +10,8 @@
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4.13.0/lib/themes/vue.css">
   <!--  导航栏css  -->
   <link rel="stylesheet" href="https://unpkg.com/docsify-toc@1.0.0/dist/toc.css">
+  <!--  公式css  -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"/>
   <!--  侧边栏折叠 css -->
   <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css" /> -->
@@ -69,6 +71,19 @@
         tabComments: true,      // default
         tabHeadings: true       // default
       },
+      // latex
+      latex: {
+        inlineMath   : [['$', '$'], ['\\(', '\\)']], // default
+        displayMath  : [['$$', '$$']],               // default
+      },
+      // 页脚
+      footer: {
+        copy: '<span>Licensed under the <a href="http://choosealicense.com/licenses/apache/">Apache-2.0</a></span>',
+        auth: ' © Salute_DataStructure by <a href="https://github.com/sanmaomashi">sanmaomashi</a>',
+        pre: '<hr/>',
+        style: 'text-align: left;',
+        class: 'className',
+      },
       // 回到顶部
       docsifyBackTop: {
         size: 32,             // 数值，组件大小，默认值32。
@@ -98,15 +113,19 @@
   <!-- 使用 pangu.js 给网页上的中文和英文、数字、符号之间添加空格。 -->
   <script src="//cdn.jsdelivr.net/npm/docsify-pangu/lib/pangu.min.js"></script>
   <!-- 侧边栏扩展与折叠 -->
-<!--   <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script> -->
+  <!--   <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script> -->
   <!-- 目录跳转 -->
   <script src="https://unpkg.com/docsify-toc@1.0.0/dist/toc.js"></script>
   <!--  tab  -->
   <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+  <!-- 公式  -->
+  <script src="//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <!--  docsify-latex plugin -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-latex@0"></script>
+  <!-- 页脚 -->
+  <script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
   <!-- 回到顶部 -->
   <script src="https://cdn.jsdelivr.net/gh/Sumsung524/docsify-backTop/dist/docsify-backTop.min.js"></script>
-
-
 
 
 </body>
