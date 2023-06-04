@@ -8,7 +8,6 @@
   - [数据预处理](sections/chapters2/数据预处理.md)
   
 * **第三章：模型评估**
-  
   * [精确度、召回率、F1得分](sections/chapters3/精确度召回率F1得分.md)
   * [交叉验证](sections/chapters3/交叉验证.md)
   * [ROC曲线和AUC](sections/chapters3/ROC、AUC.md)
@@ -16,16 +15,21 @@
   * [偏差-方差权衡](sections/chapters3/偏差方差.md)
   
 * **第四章：监督学习**
-  - 线性回归和逻辑回归
-  
-  - 决策树
-  
+  - [K-近邻算法](sections/chapters4/k近邻.md)
+
+  - [朴素贝叶斯](sections/chapters4/朴素贝叶斯.md)
+
+  - [线性回归](sections/chapters4/线性回归.md)
+
+  - [逻辑回归](sections/chapters4/逻辑回归.md)
+
+  - [决策树](sections/chapters4/决策树.md)
+
   - 支持向量机
   
   - 集成学习：随机森林，梯度提升等
   
 * **第五章：无监督学习**
-
   - 聚类：K-均值、谱聚类等
     
   - 降维：主成分分析（PCA）、t-SNE等
