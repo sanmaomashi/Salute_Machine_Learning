@@ -10,7 +10,7 @@
 
 ## Awesome
 
-- 
+- [ailearning](https://github.com/apachecn/ailearning)
 
 
 
